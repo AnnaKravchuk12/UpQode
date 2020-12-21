@@ -1,6 +1,5 @@
-# empty-project
+# README.md
 
-Empty project.
 
 ## Building and running on localhost
 
@@ -25,7 +24,7 @@ npm run build-dev
 ## Running
 
 ```sh
-node dist/bundle.js
+node dist/app.js
 ```
 
 ## Credits
