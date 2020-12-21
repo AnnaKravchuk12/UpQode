@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Gilroy";
+  src : url("../../static/fonts/Gilroy-Thin.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src : url("../../static/fonts/Gilroy-Bold.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src : url("../../static/fonts/Gilroy-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src : url("../../static/fonts/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src : url("../../static/fonts/Poppins-Bold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+ font-family: "Poppins";
+ src : url("../../static/fonts/Poppins-Regular.ttf");
+ font-weight: 700;
+ 
+}
+
+@font-face {
+ font-family: "Poppins";
+ src : url("../../static/fonts/Poppins-Bold.ttf");
+ font-weight: 800;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src : url("../../static/fonts/Poppins-Bold.ttf");
+  font-weight: bold;
+}
+
+html, body {
+  font-family: "Poppins", sans-serif;
+  min-width: 320px;
+}

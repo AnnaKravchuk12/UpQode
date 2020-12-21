@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="428c86b9-56b2-4ad7-ab83-e7af599028ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Gilroy-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Gilroy-UltraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Bitmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Bitmap2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Bitmap3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Combined Shape Copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Ov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Ov.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Oval_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Path_716.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Rectangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/iconfinder_cell-6-0_234486 copy 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/if_260_462624.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/team/Emma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/team/Fernando.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/team/Harry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/team/Julia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/team/Kyle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/team/Marcus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/videos/3dn.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/videos/n2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/videos/nature.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/burger_menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/google_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/header_scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/move_dot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/youtube_video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/body.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/burgerMenu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/collapseMenu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/mainLayout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/team.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.build.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.dev.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lkkYwF8s6mdBKa7VAk03gxQYOE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/static/fonts" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/js" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/static/fonts" />
+      <recent name="$PROJECT_DIR$/src/static" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/dist" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="428c86b9-56b2-4ad7-ab83-e7af599028ff" name="Default Changelist" comment="" />
+      <created>1608148529066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608148529066</updated>
+      <workItem from="1608148530975" duration="8833000" />
+      <workItem from="1608472307421" duration="9106000" />
+      <workItem from="1608501042401" duration="20816000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="526" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608503053891">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="526" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1608503053891" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608157275731">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1608157275731" />
+    <state x="541" y="280" width="598" height="518" key="find.popup" timestamp="1608505563988">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="280" width="598" height="518" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1608505563988" />
+  </component>
+</project>

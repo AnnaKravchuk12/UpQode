@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css">
+        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN_4d6Hln3KIG85VihIJpsa_HpzBEglSg&callback=initMap"
+                type="text/javascript"></script>
+<!--        <script src="./assets/js/app.js"></script>-->
+    </head>
+    <body>
+        <!-- Header Start-->
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <img id="logo" class="logo__img" alt="logo" src="./static/images/logo.png">
+                    <div class="logo__title">UPQODE</div>
+                </div>
+                <div>
+                    <div class="burger_menu" id="burger-icon">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <nav class="menu" id="nav">
+                        <div class="menu__item"><a href="#banner">Home</a></div>
+                        <div class="menu__item"><a href="#services">Services</a></div>
+                        <div class="menu__item"><a href="#">Team</a></div>
+                        <div class="menu__item"><a href="#locations">Contact Us</a></div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- End of Header-->
+
+        <!-- Start Section Banner-->
+        <section class="banner" id="banner">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="15000">
+                    
+                        <video class="d-block video_item" autoplay muted loop>
+                            <source src="./static/videos/nature.mp4" type="video/mp4">
+                        </video>
+                        <div class="carousel_item__content">
+                            <div class="carousel_item__title">
+                                Mileage Made Simple
+                            </div>
+                            <div class="carousel_item__text">
+                                Motivation And Your Personal Vision An Unbeatable Force
+                            </div>
+                            <button class="carousel__item__btn">Start free trial</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="8000">
+                        <video class="d-block video_item" autoplay muted loop>
+                            <source src="./static/videos/sunUp.mp4" type="video/mp4">
+                        </video>
+                        <div class="carousel_item__content">
+                            <div class="carousel_item__title">
+                                Second slide
+                            </div>
+                            <div class="carousel_item__text">
+                                Motivation And Your Personal Vision An Unbeatable Force
+                            </div>
+                            <button class="carousel__item__btn">Start free trial</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="7000">
+                        <video class="d-block video_item" autoplay muted loop>
+                            <source src="./static/videos/rain.mp4" type="video/mp4">
+                        </video>
+                        <div class="carousel_item__content">
+                            <div class="carousel_item__title">
+                                Third slide
+                            </div>
+                            <div class="carousel_item__text">
+                                Motivation And Your Personal Vision An Unbeatable Force
+                            </div>
+                            <button class="carousel__item__btn">Start free trial</button>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev btn_ctrl" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next btn_ctrl" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </section>
+        <!-- End of Section Banner-->
+
+        <!-- Start Section Services -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="services__content">
+                    <svg class="path_to_move" width="662" height="1214"  viewBox="0 0 662 1217" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="motionPath" d="M22.9998 1C22.9998 1 649.558 119 663 589.542C655.833 1135 1 1215 1 1215" stroke="#29A0EC"/>
+                    </svg>
+                    <img class="moving_dot" id="Ov" alt="dot" src="./static/images/animation_dot.png">
+
+                    <div class="row">
+                        <div class="row__item img_item">
+                            <img id="oval" class="circle_dotted" width="500" alt="oval" src="./static/images/circle_dotted.png">
+                            <img id="shapeImg" class="img_shape" alt="shape" src="./static/images/circle.png">
+                            <img id="bitmapImg" class="img_smartphone" alt="smartphone" src="./static/images/Bitmap.png">
+                        </div>
+                        <div class="row__item service__item__content first_row_item">
+                            <div class="service__title">
+                                Track every trip you make
+                            </div>
+                            <div class="service__subtitle">
+                                Every one of your trips is captured immediately and is never forgotten.
+                            </div>
+                            <div class="service__text">
+                                <div class="service__text__row">
+                                    <img width="14" height="13" src="./static/images/check_icon.png" alt="check">
+                                    <span class="text__row"> no signal dropout </span>
+                                </div>
+                                <div class="service__text__row">
+                                    <img width="14" height="13" src="./static/images/check_icon.png" alt="check">
+                                    <span class="text__row"> no missed trips </span>
+                                </div>
+                            </div>
+                            <button class="service__btn"> learn more <img src="./static/images/green_arrow.png" class="btn_arrow" alt="arrow"> </button>
+                        </div>
+                    </div> <!-- End first row -->
+
+                    <div class="row">
+                        <div class="row__item service__item__content">
+                            <div class="service__title">
+                                Classify with a single swipe
+                            </div>
+                            <div class="service__subtitle">
+                                Swipe right for business. Swipe left for personal. It’s as easy as that.
+                            </div>
+                            <div class="service__text">
+                                <div class="service__text__row">
+                                    <img width="14" height="13" src="./static/images/check_icon.png" alt="check">
+                                    <span class="text__row"> Review trips on the go </span>
+                                </div>
+                                <div class="service__text__row">
+                                    <img width="14" height="13" src="./static/images/check_icon.png" alt="check">
+                                    <span class="text__row"> Classify journeys in seconds </span>
+                                </div>
+                            </div>
+                            <button class="service__btn"> learn more <img src="./static/images/green_arrow.png" class="btn_arrow" alt="arrow"> </button>
+                        </div>
+                        <div class="row__item img_item">
+                            <img id="oval2" class="circle_dotted" width="500" alt="oval" src="./static/images/circle_dotted.png">
+                            <img id="shapeImg2" class="img_shape" alt="shape" src="./static/images/circle.png">
+                            <img id="bitmapImg2" class="img_smartphone" alt="smartphone" src="./static/images/Bitmap2.png">
+                        </div>
+                    </div> <!-- End second row -->
+
+                    <div class="row">
+                        <div class="row__item img_item">
+                            <img id="oval3" class="circle_dotted" width="500" alt="oval" src="./static/images/circle_dotted.png">
+                            <img id="shapeImg3" class="img_shape" alt="shape" src="./static/images/circle.png">
+                            <img id="bitmapImg3" class="img_smartphone" alt="smartphone" src="./static/images/Bitmap.png">
+                        </div>
+                        <div class="row__item service__item__content">
+                            <div class="service__title">
+                                Claim your money back with ease
+                            </div>
+                            <div class="service__subtitle">
+                                Claiming mileage has never been so easy, with all calculations done for you.
+                            </div>
+                            <div class="service__text">
+                                <div class="service__text__row">
+                                    <img width="14" height="13" src="./static/images/check_icon.png" alt="check">
+                                    <span class="text__row"> 100% HMRC compliance </span>
+                                </div>
+                                <div class="service__text__row">
+                                    <img width="14" height="13" src="./static/images/check_icon.png" alt="check">
+                                    <span class="text__row"> All logs in one place </span>
+                                </div>
+                            </div>
+                            <button class="service__btn"> learn more <img src="./static/images/green_arrow.png" class="btn_arrow" alt="arrow"> </button>
+                        </div>
+                    </div> <!-- End third row -->
+
+                </div> 
+            </div>
+        </section>
+        <!-- End Section Services -->
+
+         <!-- Start Team Section -->
+         <!-- <section id="team" class="team">
+            <form id="team-form" class="team__members-form c--hidden">
+                <fieldset data-item="1" name="member">
+                    <input type="hidden" name="name" value="Julia-Harrington">
+                    <input type="hidden" name="photo" value="Julia.jpg">
+                    <input type="hidden" name="position" value="Art director">
+                    <textarea type="hidden" name="desc">Have you ever had a problem with a burned light? Thanks of the effort of th Thomas Edison we no longer need to invent a light bulb.</textarea> -->
+                    <!--<input type="hidden" name="social" value="Facebook,Linkedin,Twitter">-->
+                <!-- </fieldset>
+                <fieldset data-item="2" name="member">
+                    <input type="hidden" name="name" value="Fernando-Torres">
+                    <input type="hidden" name="photo" value="Fernando.jpg">
+                    <input type="hidden" name="position" value="FrontEnd Developer">
+                    <textarea type="hidden" name="desc">Have you ever had a problem with a burned light? Thanks of the effort of th Thomas Edison.</textarea>
+                </fieldset>
+                <fieldset data-item="3" name="member">
+                    <input type="hidden" name="name" value="Harry-Kane">
+                    <input type="hidden" name="photo" value="Harry.jpg">
+                    <input type="hidden" name="position" value="UI/UX Designer">
+                    <textarea type="hidden" name="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Tellus id interdum velit laoreet id donec. Leo duis ut diam quam nulla porttitor. In hendrerit gravida rutrum quisque. Iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui.</textarea>
+                </fieldset>
+                <fieldset data-item="4" name="member">
+                    <input type="hidden" name="name" value="Emma-Cahill">
+                    <input type="hidden" name="photo" value="Emma.jpg">
+                    <input type="hidden" name="position" value="QA">
+                    <textarea type="hidden" name="desc">Have you ever had a problem with a burned light? Tellus id interdum velit laoreet id donec. Leo duis ut diam quam nulla porttitor. In hendrerit gravida rutrum quisque. Iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui.</textarea>
+                </fieldset>
+                <fieldset data-item="5" name="member">
+                    <input type="hidden" name="name" value="Kyle-Walker">
+                    <input type="hidden" name="photo" value="Kyle.jpg">
+                    <input type="hidden" name="position" value="HR">
+                    <textarea type="hidden" name="desc">Have you ever had a problem with a burned light? Tellus id interdum velit laoreet id donec. Leo duis ut diam quam nulla porttitor. In hendrerit gravida rutrum quisque. Iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui.</textarea>
+                </fieldset>
+                <fieldset data-item="6" name="member">
+                    <input type="hidden" name="name" value="Marcus-Rashford">
+                    <input type="hidden" name="photo" value="Marcus.jpg">
+                    <input type="hidden" name="position" value="Project Manager">
+                    <textarea type="hidden" name="desc">Have you ever had a problem with a burned light? Tellus id interdum velit laoreet id donec. Leo duis ut diam quam nulla porttitor. In hendrerit gravida rutrum quisque. Iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui.</textarea>
+                </fieldset>
+            </form>
+            <div class="container">
+                <div id="team-item" class="team__item col col--12 col--md-7 c--showed">
+                    <div class="team__item-container">
+                        <h2 class="team__item-title">Julia Harrington</h2>
+                        <cite class="team__item-position">Art director</cite>
+                        <p class="team__item-description">
+                            Have you ever had a problem with a burned light? Thanks of the effort of th Thomas Edison we no longer need to invent a light bulb.
+                        </p>
+                        <ul class="team__item-social">
+                            <li><a class="link" href="#">Facebook</a></li>
+                            <li><a class="link" href="#">Linkedin</a></li>
+                            <li><a class="link" href="#">Twitter</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="team__nav c--flex">
+                        <img id="teamNextPhoto" class="team__nav_photo team__nav--next" alt="Next member photo thumbnail">
+                        <div data-teamslide="1" class="team__nav-text">
+                            <p id="team-txt-next" class="team__nav-text_content team__nav--next"><span class="team__nav-text_move">Next</span><span id="team-nav-name" class="team__nav-text_name">Fernando Torres</span></p>
+                            <p id="team-txt-prev" class="team__nav-text_content team__nav--prev team__nav--endpoint"><span class="team__nav-text_move">Prev</span><span class="team__nav-text_name">Fernando Torres</span></p>
+                        </div>
+                        <img id="team-prev-photo" class="team__nav_photo team__nav--prev c--hidden" alt="Prev member photo thumbnail">
+                    </div>
+                </div>
+                <div class="col col--12 col--md-5">
+                    <div class="team__slider">
+                        <input type="radio" name="team-slide" id="team-sel-1" class="team__slide-pick" checked>
+                        <input type="radio" name="team-slide" id="team-sel-2" class="team__slide-pick">
+                        <input type="radio" name="team-slide" id="team-sel-3" class="team__slide-pick">
+                        <input type="radio" name="team-slide" id="team-sel-4" class="team__slide-pick" checked>
+                        <input type="radio" name="team-slide" id="team-sel-5" class="team__slide-pick">
+                        <input type="radio" name="team-slide" id="team-sel-6" class="team__slide-pick">
+                        <label for="team-sel-1" id="team-sl-1" class="team__slide-item c--flex">
+                            <img id="Julia"  alt="Member photo slide" class="team__slide-photo">
+                        </label>
+                        <label for="team-sel-2" id="team-sl-2" class="team__slide-item c--flex">
+                            <img src="src/assets/images/team/Fernando.ipg" alt="Member photo slide" class="team__slide-photo">
+                        </label>
+                        <label for="team-sel-3" id="team-sl-3" class="team__slide-item c--flex">
+                            <img src="src/assets/images/team/Harry.jpg" alt="Member photo slide" class="team__slide-photo">
+                        </label>
+                        <label for="team-sel-1" id="team-sl-1" class="team__slide-item c--flex">
+                            <img src="src/assets/images/team/Emma.jpg" alt="Member photo slide" class="team__slide-photo">
+                        </label>
+                        <label for="team-sel-2" id="team-sl-2" class="team__slide-item c--flex">
+                            <img src="src/assets/images/team/Kyle.jpg" alt="Member photo slide" class="team__slide-photo">
+                        </label>
+                        <label for="team-sel-3" id="team-sl-3" class="team__slide-item c--flex">
+                            <img src="src/assets/images/team/Marcus.jpg" alt="Member photo slide" class="team__slide-photo">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- End of Section Team -->
+
+        <!-- Start Section Location (Contacts Us) -->
+        <section class="location-info" id="locations">
+            <div class="container">
+                <div class="locations">
+
+                    <div class="contacts_title">
+                        Meet Us <br>  in Your City
+                    </div>
+                    <div class="contacts_text" id="contacts_text">
+                        2005 Stokes Isle Apt. 896,
+                        <br>
+                        <span id="contact_address"></span>
+                    </div>
+
+                    <div class="locations-list">
+                        <div class="location active_city" id="LA">
+                            <img src="./static/images/location.png" alt="location" class="img_location">
+                            <div class="city__content">
+                                <div class="city_title">Los Angeles, USA </div>
+                                <div class="city_address">
+                                    2005 Stokes Isle Apt. 896,
+                                    <br>Venaville, New York 10010
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="location" id="NY">
+                            <img src="./static/images/location.png" alt="location" class="img_location">
+                            <div class="city__content">
+                                <div class="city_title">New York, USA </div>
+                                <div class="city_address">
+                                    2005 Stokes Isle Apt. 896,
+                                    <br>Venaville, New York 10010
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="location" id="BO">
+                            <img src="./static/images/location.png" alt="location" class="img_location">
+                            <div class="city__content">
+                                <div class="city_title">Boston, USA </div>
+                                <div class="city_address">
+                                    2005 Stokes Isle Apt. 896,
+                                    <br>Venaville, New York 10010
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="location" id="DE">
+                            <img src="./static/images/location.png" alt="location" class="img_location">
+                            <div class="city__content">
+                                <div class="city_title">Detroit, USA </div>
+                                <div class="city_address">
+                                    2005 Stokes Isle Apt. 896,
+                                    <br>Venaville, New York 10010
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="map-container">
+                    <div id="myMap" class="map"></div>
+                    <div class="company_info">
+                        <div class="info_title" id="info-title"></div>
+                        <div class="info__sub_title">
+                            <span id="street"></span>,
+                            <br>
+                            <span id="address"></span>
+                        </div>
+                        <div class="info__block">
+                            <div class="title_row">
+                                <img src="./static/images/Clock.png" alt="clock" class="info_icon">
+                                <div class="info__block_title">Work Schedule</div>
+                            </div>
+                            <div class="info__block_text">
+                                Mon - Sat: 11:00-19:00,
+                                <br>Sun: 11:00-16:00,
+                            </div>
+                        </div>
+
+                        <div class="info__block">
+                            <div class="title_row">
+                                <img src="./static/images/phone.png" alt="clock" class="info_icon">
+                                <div class="info__block_title">Head Office</div>
+                            </div>
+                            <div class="info__block_text">
+                                (0043) 568 456 902
+                                <br>(0043) 568 456 902
+                            </div>
+                        </div>
+
+                        <div class="info__block">
+                            <div class="title_row">
+                                <img src="./static/images/mail.png" alt="clock" class="info_icon">
+                                <div class="info__block_title">Head Office</div>
+                            </div>
+                            <div class="info__block_text">
+                                hello@pad.architecture
+                                <br>support@pad.architecture
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Section Location -->
+
+        <!-- Start Footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="logo footer__logo">
+                        <img class="logo__img" src="./static/images/logo.png" alt="logo">
+                        <div class="footer__logo__title"> UPQODE </div>
+                    </div>
+                    <nav class="footer_nav">
+                        <ul>
+                            <li><a href="#banner">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#contacts">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="author_right">
+                        &#169; UpQode 2019. All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End of Footer-->
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+
+</html>

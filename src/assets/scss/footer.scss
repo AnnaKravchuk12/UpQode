@@ -1,0 +1,132 @@
+.footer {
+  width: 100%;
+  background-color: #222;
+
+  .container {
+    max-width: 1206px;
+    margin: 0 auto;
+
+    .footer__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .footer__logo {
+        margin-top: 90px;
+        display: flex;
+        align-items: flex-end;
+
+        .logo__img {
+          height: 50px;
+        }
+
+        .footer__logo__title {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 46px;
+          line-height: 32px;
+          margin-bottom: 0;
+          color: #fff;
+          margin-left: 15px;
+        }
+      }
+
+      .footer_nav {
+        margin-top: 50px;
+
+        ul {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+
+          li {
+            list-style: none;
+            padding: 0 27px;
+
+            a {
+              font-family: Gilroy;
+              font-size: 16px;
+              line-height: 16px;
+              letter-spacing: 3px;
+              font-weight: 600;
+              text-transform: uppercase;
+              text-decoration: none;
+              color: #777;
+
+              &:hover {
+                border-bottom: 1px solid #fff;
+              }
+            }
+          }
+        }
+      }
+
+      .author_right {
+        margin-top: 55px;
+        margin-bottom: 61px;
+        color: #777;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.2px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1200px){
+  .footer {
+    .container {
+      .footer__content {
+        .footer_nav ul {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px){
+  .footer {
+    .container {
+      .footer__content {
+        .footer__logo {
+          margin-top: 30px;
+
+          .footer__logo__title {
+            font-size: 35px;
+          }
+
+          .logo__img {
+            height: 40px;
+          }
+        }
+
+        .footer_nav {
+          margin-top: 20px;
+
+          ul {
+            padding: 0;
+
+            li {
+              a {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+
+        .author_right {
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+}

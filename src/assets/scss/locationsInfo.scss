@@ -1,0 +1,254 @@
+$white_color: #fff;
+
+.location-info {
+  width: 100%;
+
+  .container {
+    display: flex;
+    max-width: 1368px;
+    margin: 0 auto;
+    position: relative;
+
+    .locations {
+      width: 35%;
+
+      .contacts_title{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 52px;
+        line-height: 60px;
+        color: #00A031;
+      }
+
+      .contacts_text{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #6C6C6C;
+
+        margin-top: 25px;
+        margin-right: 150px;
+      }
+
+      .locations-list {
+        margin-top: 30px;
+        margin-bottom: 50px;
+
+        .location {
+          position: relative;
+          margin-right: 75px;
+          cursor: pointer;
+
+          &.active_city {
+            -webkit-box-shadow: 26px 29px 15px 2px rgba(0,0,0,0.27);
+            -moz-box-shadow: 26px 29px 15px 2px rgba(0,0,0,0.27);
+            box-shadow: 26px 29px 15px 2px rgba(0,0,0,0.27);
+          }
+
+          .img_location{
+            position: absolute;
+            top: 30px;
+            left: 10px;
+          }
+
+          .city__content{
+            margin-left: 50px;
+
+            .city_title{
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 28px;
+              letter-spacing: 0.2px;
+              color: #00A031;
+              padding-top: 30px;
+            }
+            .city_address{
+              font-family: 'Poppins', sans-serif;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 24px;
+              letter-spacing: 0.2px;
+              color: #6C6C6C;
+              padding-top: 15px;
+              padding-bottom: 25px;
+            }
+          }
+        }
+      }
+    }
+
+    .map-container {
+      width: 65%;
+      position: relative;
+
+      .map {
+        width: 90%;
+        height: 90%;
+      }
+
+      .company_info {
+        position: absolute;
+        top: 100px;
+        right: 10px;
+        font-family: 'Poppins', sans-serif;
+        background-color: $white_color;
+        z-index: 15;
+        text-align: center;
+        -webkit-box-shadow: 15px 15px 15px 2px rgba(0,0,0,0.27);
+        -moz-box-shadow: 15px 15px 15px 2px rgba(0,0,0,0.27);
+        box-shadow: 15px 15px 15px 2px rgba(0,0,0,0.27);
+        padding: 30px 40px 50px 50px;
+
+        .info_title {
+          font-style: normal;
+          font-weight: 800;
+          font-size: 38px;
+          line-height: 51px;
+          letter-spacing: 0.4px;
+          color: #1C201E;
+        }
+
+        .info__sub_title {
+          font-style: normal;
+          font-weight: normal;
+          text-align: left;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.2px;
+          color: #6C6C6C;
+        }
+
+        .info__block{
+          margin-top:35px;
+
+          .title_row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+
+            .info_icon {
+              width: 18px;
+              height: 18px;
+            }
+
+            .info__block_title {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 28px;
+              letter-spacing: 0.2px;
+              color: #1C201E;
+              margin-left: 13px;
+            }
+          }
+
+          .info__block_text {
+            text-align: left;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: #222222;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .location-info {
+    .container {
+      flex-direction: column;
+
+      .locations {
+        width: 60%;
+
+        .contacts_title {
+          br {
+            display: none;
+          }
+        }
+
+        .contacts_text {
+          br {
+            display: none;
+          }
+        }
+      }
+
+      .map-container {
+        width: 100%;
+
+        .map {
+          width: 100%;
+          height: 600px;
+          margin-bottom: 30px;
+        }
+
+        .company_info {
+          top: auto;
+          bottom: 110%;
+          right: 20px
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .location-info {
+    .container {
+
+      .locations {
+        width: 100%;
+
+        .contacts_title {
+          margin-top: 10px;
+          font-size: 30px;
+          line-height: 36px;
+        }
+
+        .contacts_text {
+          margin: 10px 0 0;
+        }
+
+        .locations-list {
+          .location {
+            margin: 0 0 15px;
+
+            .city_address {
+              br {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+
+      .map-container {
+        .map {
+          height: 450px;
+          margin-bottom: 20px;
+        }
+
+        .company_info {
+          position: static;
+
+          .info_title {
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}
